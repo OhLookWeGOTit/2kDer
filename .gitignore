@@ -1,0 +1,22 @@
+# Build outputs
+*.dll
+*.exe
+*.so
+*.pdb
+*.exp
+*.lib
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
