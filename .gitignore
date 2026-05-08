@@ -1,22 +1,35 @@
+# 2kDer .gitignore
+
 # Build outputs
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Compiled binaries
 *.dll
 *.exe
-*.so
-*.pdb
-*.exp
 *.lib
+*.exp
+*.pdb
+*.ilk
+*.obj
+*.o
+*.lo
+*.la
 
-# IDEs
+# LuaJIT runtime – users build it themselves
+lua51.dll
+
+# IDE / editor
 .vs/
-.vscode/
-.idea/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Temporary files
 *.tmp
 *.bak
